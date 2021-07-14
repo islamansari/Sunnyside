@@ -1,0 +1,57 @@
+footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(168deg 64% 78%);
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 1440px;
+}
+footer h1{
+    padding-top: 70px;
+    font-family: 'Fraunces', serif;
+    color: hsl(168, 34%, 41%);
+}
+footer ul.links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin-top: 66px;
+}
+footer ul.links li{
+    padding: 0px 31px;
+    color: hsl(168, 34%, 41%);
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+footer ul.links li:hover{
+    color: white;
+}
+footer ul.socials{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin-top: 66px;
+}
+footer ul.socials li {
+    padding: 0px 18px;
+    color: hsl(168, 34%, 41%);
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+#facebook, #twitter, #instagram, #pinterest{
+    transition: all 0.3s ease-in;
+}
+footer ul.socials li:hover #facebook{
+    fill: white;
+}
+footer ul.socials li:hover #instagram{
+    fill: white;
+}
+footer ul.socials li:hover #twitter{
+    fill: white;
+}
+footer ul.socials li:hover #pinterest{
+    fill: white;
+}

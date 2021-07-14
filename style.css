@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main{
+    margin-bottom: -1.65rem;
+}
+section{
+    max-width: 1440px;
+}
+.left-right{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-height: 114.5vh;
+}
+.left-img-box, .left{
+    width: 50%;
+}
+.left-img-box img{
+    height: 100%;   
+}
+.right-img-box img{
+    height: 100%;
+}
+.left{
+    padding: 8%;
+}
+.left h2{
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.left p{
+    font-size: 17px;
+}
+.left a{
+    font-size: 17px;
+    color: black;
+    text-decoration: underline orange;
+}
+.right-left{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-height: 600px;
+}
+.right-img-box, .right{
+    width: 50%;
+}
+.right{
+    padding: 8%;
+}
+.right h2{
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.right p{
+    font-size: 17px;
+}
+.right a{
+    font-size: 17px;
+    color: black;
+    text-decoration: underline orange;
+}
+.top-bottom{
+    display: flex;
+    height: 600px;
+}
+.top-bottom1 img{
+    width: 100%;
+}
+.top-bottom1{
+    color: hsl(167, 40%, 24%);
+    width: 50%;
+}
+.top-bottom1 .text{
+    position: relative;
+    top: -260px;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+.text h3{
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+.top-bottom2 img{
+    width: 100%;
+}
+.top-bottom2{
+    background-image: url('images/image-photography.jpg');
+    color: hsl(198, 62%, 26%);
+    width: 50%;
+}
+.top-bottom2 .text{
+    position: relative;
+    top: -260px;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+.text h3{
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+.review-section{
+    margin-bottom: 200px;
+}
+.review-section h1{
+    text-align: center;
+    margin: 128px 50px 84px 50px;
+    font-family: 'Fraunces', serif;
+    color: grey;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+.reviews{
+    display: flex;
+    text-align: center;
+}
+.reviews .review-text{
+    padding: 30px;
+}
+.review1 .img img{
+    border-radius: 72px;
+    margin-bottom: 60px;
+}
+.review1 .review-text p{
+    color: #696565;
+    font-size: 19px;
+    margin-bottom: 60px;
+}
+.review1 .name h2{
+    font-family: 'Fraunces', serif;
+    color: #000000d6;
+}
+.review1 .name p{
+    color: grey;
+}
+.review2 .img img{
+    border-radius: 72px;
+    margin-bottom: 60px;
+}
+.review2 .review-text p{
+    color: #696565;
+    font-size: 19px;
+    margin-bottom: 60px;
+}
+.review2 .name h2{
+    font-family: 'Fraunces', serif;
+    color: #000000d6;
+}
+.review2 .name p{
+    color: grey;
+}
+.review3 .img img{
+    border-radius: 72px;
+    margin-bottom: 60px;
+}
+.review3 .review-text p{
+    color: #696565;
+    font-size: 19px;
+    margin-bottom: 60px;
+}
+.review3 .name h2{
+    font-family: 'Fraunces', serif;
+    color: #000000d6;
+}
+.review3 .name p{
+    color: grey;
+}
+.lower-colage{
+    display: flex;
+}
+.lower-colage img{
+    width: 25%;
+}
